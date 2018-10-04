@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Classe da tabela de pedidos. */
+.tabela-pedidos{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Separador de linhas da tabela. */ 
+.linhas tr{
+    border-bottom: 1px #DEE2E6 solid;
+}
+
+/* Caixa de pedido pendente. */
+.pendente-box{
+    padding: 0.3em;
+    text-align: center;
+    background-color: #007bff;
+    color: #FFFFFF;
+    border-radius: 10%;
+    font-family: sans-serif;
+}
+
+/* Caixa de pedido entregue. */
+.entregue-box{
+    padding: 0.3em;
+    text-align: center;
+    background-color: #28a745;
+    color: #FFFFFF;
+    border-radius: 10%;
+    font-family: sans-serif;
+}
+
+/* Caixa de pedido cancelado. */
+.cancelado-box{
+    padding: 0.3em;
+    text-align: center;
+    background-color: #E82431;
+    color: #FFFFFF;
+    border-radius: 10%;
+    font-family: sans-serif;
+}
+
+/* Formatacao das celulas de cada coluna da tabela de pedidos. */
+.pedidos-row td{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+/* Formatacao do header da tabela de pedidos. */
+.pedidos-header{
+    background-color: #DEE2E6;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #6B6C6D;
+}
+
+.ver-itens{
+    color: #007bff;
+}
+
+.editar{
+    text-align: center;
+    color: #FDDF4C;
+}
+
+.excluir{
+    text-align: center;
+    color: #E82431;
+}
