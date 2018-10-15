@@ -95,3 +95,23 @@ div p {
     color: white;
     cursor: pointer;
 }
+
+@media (max-width: 376px){
+    .imgLogin{
+        display: none;
+    }
+    .loginMenu{
+        width:100%;
+        float: none;
+    }
+}
+
+@media (min-height: 1024px){
+    .imgLogin{
+        height: 1024px;
+        width: 1536px;
+    }
+    .loginMenu{
+        padding: 15em 4.5%;
+    }
+}
