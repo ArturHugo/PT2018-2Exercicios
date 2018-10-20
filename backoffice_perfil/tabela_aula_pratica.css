@@ -2,10 +2,17 @@
     box-sizing: border-box;
 }
 
+.table-box {
+    display: flex;
+    justify-content: center;
+}
+
 /* Classe da tabela de pedidos. */
 .tabela-pedidos{
     width: 100%;
     border-collapse: collapse;
+    margin: 5px;
+    width: 90%;
 }
 
 /* Separador de linhas da tabela. */ 
@@ -15,37 +22,40 @@
 
 /* Caixa de pedido pendente. */
 .pendente-box{
+    width: 80%;
     padding: 0.3em;
     text-align: center;
     background-color: #007bff;
     color: #FFFFFF;
-    border-radius: 10%;
+    border-radius: 5px;
     font-family: sans-serif;
 }
 
 /* Caixa de pedido entregue. */
 .entregue-box{
+    width: 80%;
     padding: 0.3em;
     text-align: center;
     background-color: #28a745;
     color: #FFFFFF;
-    border-radius: 10%;
+    border-radius: 5px;
     font-family: sans-serif;
 }
 
 /* Caixa de pedido cancelado. */
 .cancelado-box{
+    width: 80%;
     padding: 0.3em;
     text-align: center;
     background-color: #E82431;
     color: #FFFFFF;
-    border-radius: 10%;
+    border-radius: 5px;
     font-family: sans-serif;
 }
 
 /* Formatacao das celulas de cada coluna da tabela de pedidos. */
 .pedidos-row td{
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
@@ -58,7 +68,7 @@
     text-align: left;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 40px;
+    padding-left: 10px;
     font-weight: bold;
     font-family: sans-serif;
     color: #6B6C6D;

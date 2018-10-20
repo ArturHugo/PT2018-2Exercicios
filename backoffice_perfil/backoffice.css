@@ -1,0 +1,131 @@
+body {
+    padding-bottom: 3em;
+}
+
+/* Menu que fica na frente da imagem*/
+.backofficeMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 4em;
+    height: 22em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/helloquence-61189.jpg");
+    background-size: 100%;
+}
+.perfilMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 4em;
+    height: 22em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/restaurant.jpeg");
+    background-size: 100%;
+}
+/*div de cima no backofficeMenu*/
+.top-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backofficeMenu, .perfilMenu h3 {
+    font-family: Amaranth;
+    color: white;
+}
+.backofficeMenu, .perfilMenu h1 {
+    font-family: sans-serif;
+    font-weight: 550;
+    color: white;
+    margin-top: 2em;
+}
+.backofficeMenu, .perfilMenu p {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    margin: 3px 0;
+    font-size: 1.2sem;
+}
+
+.top-div-links {
+    text-decoration: none;
+    color: white;
+}
+.top-div-links:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+
+#yellow {
+    text-decoration: none;
+    color: yellow;
+}
+
+.nav-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin: 0 0.5em;
+}
+
+.perfilForm {
+    height: 17em;
+    padding: 1em 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.perfilLabel {
+    font-family: 'Open Sans';
+    color: #959595;
+    font-size: 0.8em;
+}
+.perfil-inputBox {
+    width: 50%;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    height: 2.5em;
+    border-radius: 2px;
+    border: solid #e2e2e2 1px;
+}
+.perfilButton {
+    width: 50%;
+    background-color: #29a755;
+    color: white;
+    height: 2.7em;
+    border-radius: 2px;
+    border: none;
+    font-size: 0.8em;
+    font-family: 'Open Sans';
+    margin: 1em 0;
+}
+
+
+.footer-display {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 3em;
+    width: 100%;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+.footer-note-1 {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.footer-note-2 {
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+
+.pagination-display {
+    display: flex;
+    justify-content: center;
+}
